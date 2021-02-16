@@ -6,8 +6,21 @@
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <!-- ... -->
 </head>
-<body>
+<body class="body">
+  
+  <iframe class="video" src="https://www.youtube.com/embed/AR8D2yqgQ1U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <img src="/Spandau_Ballet_in_Concert,_Liverpool_Echo_Arena.jpg" alt="Andrew Hurley - originally posted to Flickr as Spandau Ballet in Concert, Liverpool Echo Arena" />
-  Andrew Hurley - originally posted to Flickr as Spandau Ballet in Concert, Liverpool Echo Arena
+  <p>Andrew Hurley - originally posted to Flickr as Spandau Ballet in Concert, Liverpool Echo Arena</p>
 </body>
 </html>
+
+<style>
+  .body {
+    background: url("/Spandau_Ballet_in_Concert,_Liverpool_Echo_Arena.jpg") no-repeat cover;
+  }
+  
+  .video {
+    width: 100vw;
+    height: auto;
+  }
+</style>
